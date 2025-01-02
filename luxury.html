@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Travel Packages</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            padding: 40px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        h2 {
+            color: #333;
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 40px;
+        }
+        .luxury-package {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: space-between;
+        }
+        .luxury-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 100%;
+            max-width: 550px;
+            transition: transform 0.3s;
+        }
+        .luxury-card:hover {
+            transform: scale(1.05);
+        }
+        .luxury-card img {
+            width: 100%;
+            height: auto;
+        }
+        .luxury-card .content {
+            padding: 30px;
+            color: #333;
+        }
+        .luxury-card .content h3 {
+            font-size: 1.8em;
+            color: #e74c3c;
+            margin-bottom: 15px;
+        }
+        .luxury-card .content p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .luxury-card .content .price {
+            font-size: 1.5em;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+        .luxury-card .content .button {
+            background-color: #e74c3c;
+            color: #fff;
+            padding: 12px 25px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .luxury-card .content .button:hover {
+            background-color: #c0392b;
+        }
+        @media (max-width: 768px) {
+            .luxury-package {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    
+    <header>
+        <h1>Exclusive Luxury Travel Packages</h1>
+        <p>Indulge in unforgettable experiences and the finest destinations across the globe.</p>
+    </header>
+
+  
+    <div class="container">
+        <h2>Our Premium Travel Experiences</h2>
+
+        <div class="luxury-package">
+
+            
+            <div class="luxury-card">
+                <img src="yachat.jfif" alt="Private Yacht Charter">
+                <div class="content">
+                    <h3>Private Yacht Charter</h3>
+                    <p>Embark on an exclusive yacht journey across crystal-clear waters. Whether it's a romantic getaway or a group adventure, enjoy unparalleled luxury with customized services.</p>
+                    <div class="price">15,000 per day</div><br>
+                    <a href="#" class="button">Book Now</a>
+                </div>
+            </div>
+
+            <!-- Package 2: 5-Star Resort Stay -->
+            <div class="luxury-card">
+                <img src="resort.jfif" alt="5-Star Resort Stay">
+                <div class="content">
+                    <h3>5-Star Resort Stay</h3>
+                    <p>Relax and rejuvenate in a luxurious 5-star resort. Experience world-class amenities, private villas, and stunning locations with bespoke services.</p>
+                    <div class="price">13,500 per night</div><br>
+                    <a href="#" class="button">Book Now</a>
+                </div>
+            </div>
+
+            <!-- Package 3: Private Safari Tour -->
+            <div class="luxury-card">
+                <img src="5safa.jfif" alt="Private Safari Tour">
+                <div class="content">
+                    <h3>Private Safari Tour</h3>
+                    <p>Experience the wild on a private safari tour, complete with luxury lodges, exclusive wildlife experiences, and expert guides for a truly unforgettable adventure.</p>
+                    <div class="price">17,500 per person</div><br>
+                    <a href="#" class="button">Book Now</a>
+                </div>
+            </div>
+
+            <!-- Package 4: Helicopter Tour Over the Grand Canyon -->
+            <div class="luxury-card">
+                <img src="heli.jfif" alt="Helicopter Tour Over the Grand Canyon">
+                <div class="content">
+                    <h3>Helicopter Tour Over the Grand Canyon</h3>
+                    <p>Soar above the iconic Grand Canyon in a private helicopter. Enjoy breathtaking aerial views and an intimate experience with your own personal pilot and guide.</p>
+                    <div class="price">12,000 per couple</div><br>
+                    <a href="#" class="button">Book Now</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
